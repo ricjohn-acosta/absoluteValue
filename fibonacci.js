@@ -8,5 +8,6 @@ const fib = (x) => {
     // Remove first element and final element.
     array.shift();
     array.pop();
+    array.toString();
     return array
 }
