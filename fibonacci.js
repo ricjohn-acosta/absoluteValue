@@ -5,7 +5,7 @@ const fib = (x) => {
     for (let i = 2; i < x + 1; i++) {
         array.push(array[i - 2] + array[i - 1])
     }
-    // Remove first element and final element.
+    // Remove first element, last element and turn array into string.
     array.shift();
     array.pop();
     array.toString();
